@@ -10,6 +10,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class UIKeywords {
+
 	public WebDriver driver = null;
 	/**
 	 * use this method to open different Browser
@@ -105,6 +106,7 @@ public class UIKeywords {
 			System.out.println("invalid Locater Type");
 			break;
 		}
+
 
 	}
 }
